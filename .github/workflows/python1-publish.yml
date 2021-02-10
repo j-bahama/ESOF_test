@@ -31,4 +31,4 @@ jobs:
         twine upload dist/*
     - name: Test with pytest
       run: |
-        pytest example.py
+        pytest test.py
